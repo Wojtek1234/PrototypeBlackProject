@@ -34,7 +34,7 @@ class StartActivityWithAR : AppCompatActivity() {
                     finish()
                 }
             }else if(resultCode == NO_SMILE){
-                text.text = "SMILE NOT detected, is doing now what is supposed to be when there is a smile "
+                text.text = "SMILE NOT detected, is doing now what is supposed to be when there is no smile "
                 stopsTalkingButton.text = "Finish test project"
                 stopsTalkingButton.setOnClickListener {
                     finish()
