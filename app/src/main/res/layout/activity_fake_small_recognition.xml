@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vidicom.fakeblackredale.StartActivityWithAR">
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/text"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is a part for smile recognition"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/smileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="Smile detected"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/noSmileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smileButton"
+        android:text="No smile detected"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
