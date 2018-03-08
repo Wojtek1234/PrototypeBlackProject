@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FakeSmallRecognitionActivity"></activity>
+        <activity android:name=".FakeSmailRecognitionActivity"></activity>
     </application>
 
 </manifest>

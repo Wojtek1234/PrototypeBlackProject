@@ -18,7 +18,7 @@ class StartActivityWithAR : AppCompatActivity() {
         setContentView(R.layout.activity_start_with_ar)
 
         stopsTalkingButton.setOnClickListener {
-            Intent(this,FakeSmallRecognitionActivity::class.java).let {
+            Intent(this, FakeSmailRecognitionActivity::class.java).let {
                 this.startActivityForResult(it,requestCode)
             }
         }
